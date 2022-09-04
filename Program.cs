@@ -31,20 +31,19 @@
 // 7 -> да
 // 1 -> нет
 
-
-Console.Clear();
-Console.Write("Введите цифру, обозначающую день недели (от 1 до 7): ");
-int DayNumber = Convert.ToInt32(Console.ReadLine());
-void Check (int DayNumber) 
-    {
-  if (DayNumber == 6 || DayNumber == 7) 
-    {
-  Console.WriteLine("Этот день выходной");
-    }
-  else if (DayNumber < 1 || DayNumber > 7) 
-  {
-    Console.WriteLine("Нужно ввести цифру от 1 до 7");
-  }
-  else Console.WriteLine("Этот день не выходной");
-}
-Check(DayNumber);
+// Console.Clear();
+// Console.Write("Введите цифру, обозначающую день недели (от 1 до 7): ");
+// int DayNumber = Convert.ToInt32(Console.ReadLine());
+// void Check (int DayNumber) 
+//     {
+//   if (DayNumber == 6 || DayNumber == 7) 
+//     {
+//   Console.WriteLine("Этот день выходной");
+//     }
+//   else if (DayNumber < 1 || DayNumber > 7) 
+//   {
+//     Console.WriteLine("Нужно ввести цифру от 1 до 7");
+//   }
+//   else Console.WriteLine("Этот день не выходной");
+// }
+// Check(DayNumber);
